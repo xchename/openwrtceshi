@@ -28,7 +28,7 @@ jobs:
       # 3. 克隆 LEDE / OpenWrt 源码
       - name: Clone LEDE source
         run: |
-          git clone https://github.com/coolsnowwolf/lede.git lede
+          git clone https://github.com/coolsnowwolf/lede
           cd lede
           ./scripts/feeds update -a
           ./scripts/feeds install -a
